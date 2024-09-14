@@ -7,3 +7,40 @@
     --brown-800: #854632;
     --white: #FFF;
 }
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../recipe-page/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Young-serif';
+    src: url(../recipe-page/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+main{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: var(--stone-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    min-height: 300px;
+    width: clamp(375px, 736px, 736px);
+    background-color: var(--white);
+}
+
+img {
+    min-height: 300px;
+    max-width: 656px;
+}
