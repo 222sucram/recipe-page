@@ -26,11 +26,7 @@
 }
 
 main{
-<<<<<<< HEAD
     min-height: 100vh;
-=======
-    height: 100vh;
->>>>>>> e8a8b054a1363620ac0a418095e0c18f06c32d28
     max-width: 100vw;
     background-color: var(--stone-100);
     display: flex;
@@ -38,11 +34,8 @@ main{
     justify-content: center;
 }
 
-<<<<<<< HEAD
-section {
-=======
-article {
->>>>>>> e8a8b054a1363620ac0a418095e0c18f06c32d28
+
+section{
     min-height: 300px;
     width: clamp(375px, 736px, 736px);
     background-color: var(--white);
