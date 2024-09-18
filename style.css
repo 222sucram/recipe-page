@@ -80,6 +80,7 @@ h1 {
     min-height: 144px;
     border-radius: 12px;
     padding-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 h3 {
@@ -126,6 +127,40 @@ h2 {
     font-family: 'Young-serif';
     color: var(--brown-800);
     font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.ingredients-container {
+    width: 100%;
+    border-bottom: 1px solid var(--stone-150);
+}
+
+.list-ingredients {
+    width: 100%;
+    margin-left: 8px;
+    list-style: none;
+    color: var(--stone-600);
+    font-size: 16px;
+}
+
+.list-ingredients li {
+    padding-bottom: 8px;
+}
+
+.list-ingredients li:last-child {
+    padding-bottom: 32px;
+}
+
+.list-ingredients li::before {
+    content: "•";
+    font-size: 20px;
+    padding-right: 24px;
+    color: var(--brown-800);
+}
+
+.instructions-container {
+    padding-top: 32px;
 }
 
 h3 {
