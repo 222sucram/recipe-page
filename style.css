@@ -1,5 +1,6 @@
 :root{
     --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
     --stone-900: #312E2C;
     --stone-600: #5F564D;
     --stone-150: #E3DDD7;
@@ -24,6 +25,7 @@
     border: 0;
     padding: 0;
     font-family: 'Outfit';
+    color: var(--stone-900);
 }
 
 main{
@@ -63,8 +65,61 @@ article {
 h1 {
     font-family: 'Young-serif';
     color: var(--stone-900);
-    font-weight: 900;
+    font-weight: 100;
     font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.description {
+    margin-bottom: 32px;
+    color: var(--stone-600);
+}
+
+.prep-time {
+    background-color: var(--rose-50);
+    min-height: 144px;
+    border-radius: 12px;
+    padding-bottom: 24px;
+}
+
+h3 {
+    padding: 24px 0 16px 24px;
+    font-size: 20px;
+}
+
+.list-prep {
+    padding-left: 24px;
+    list-style: none;
+}
+
+
+.list-prep li::before {
+    content: "•";
+    font-size: 20px;
+    padding-right: 29px;
+    padding-left: 5px;
+    color: var(--rose-800);
+}
+
+.list-prep li {
+    padding-bottom: 8px;
+}
+
+.list-prep li:last-child {
+    padding-bottom: 0;
+} 
+
+.list-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--stone-600);
+}
+
+.list-info {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--stone-600);
 }
 
 h2 {
