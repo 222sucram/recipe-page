@@ -25,7 +25,7 @@
     border: 0;
     padding: 0;
     font-family: 'Outfit';
-    color: var(--stone-900);
+    color: var(--stone-600);
 }
 
 main{
@@ -41,7 +41,8 @@ main{
 section{
     min-height: 300px;
     width: clamp(375px, 736px, 736px);
-    margin-top: 128px;
+    margin: 128px 0;
+    padding-bottom: 28px;
     background-color: var(--white);
     display: flex;
     align-items: center;
@@ -86,6 +87,7 @@ h1 {
 h3 {
     padding: 24px 0 16px 24px;
     font-size: 20px;
+    color: var(--rose-800);
 }
 
 .list-prep {
@@ -160,9 +162,60 @@ h2 {
 }
 
 .instructions-container {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--stone-150);
+}
+
+.list-instructions {
+    padding: 0 25px 0 25px;
+}
+
+.list-instructions li {
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.list-instructions li:last-child{
+    margin-bottom: 0;
+}
+
+.list-instructions li::marker {
+    color: var(--brown-800);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nutrition-container  h2{
     padding-top: 32px;
 }
 
-h3 {
-    color: var(--rose-800);
+.list-nutrition {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-nutrition li {
+    padding: 0 32px;
+    display: flex;
+    border-bottom: 1px solid var(--stone-150);
+}
+
+.list-nutrition li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.list-nutrition p {
+    padding: 12px 0;
+    width: 100%;
+}
+
+.list-nutrition p:last-child {
+    color: var(--brown-800);
+    font-weight: 700;
+}
+
+.nutrition-info {
+    padding-bottom: 12px;
 }
