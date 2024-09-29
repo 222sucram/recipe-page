@@ -55,6 +55,7 @@ section{
 img {
     min-height: 300px;
     max-width: 656px;
+    width: 100%;
     margin: 40px 0;
     border-radius: 12px;
 }
@@ -218,4 +219,28 @@ h2 {
 
 .nutrition-info {
     padding-bottom: 12px;
+}
+
+@media screen and (max-width:500px){
+  section {
+    border-radius: 0;
+    width: 100vw;
+    margin: 0;
+  }
+
+  img {
+    border-radius: 0;
+    margin-top: 0;
+    height: 171px;
+  }
+
+  figure {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width:655px) {
+    img{
+        margin-top: 0;
+    }
 }
